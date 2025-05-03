@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI-Based Interview System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>AI-Based Interview System</h2>
+    <button onclick="startRecording()">🎙 Start Interview</button>
+
+    <div class="output">
+      <p class="label">Transcribed Answer:</p>
+      <p id="transcript">[Waiting for input...]</p>
+
+      <p class="label">Sentiment Analysis:</p>
+      <div class="score-box" id="sentiment">N/A</div>
+
+      <p class="label">Score (Technical + Soft Skills):</p>
+      <div class="score-box" id="score">N/A</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
